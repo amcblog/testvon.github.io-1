@@ -6,6 +6,6 @@ author_profile: true
 ---
 {% include base_path %}
 
-{% for post in site.sci-tech %} 
+{% for post in site.Sci-Tech %} 
   {% include archive-single.html %} 
 {% endfor %}
