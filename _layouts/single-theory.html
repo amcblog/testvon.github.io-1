@@ -83,26 +83,9 @@ layout: default
     <div class="page__related">
       <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
       <div class="grid__wrapper">
-        {% if site.theory %}
         {% for post in site.theory limit:4 %}
           {% include archive-single.html type="grid" %}
-        {% endfor %}
-        {% endif %}
-        {% if site.apply %}
-        {% for post in site.apply limit:4 %}
-          {% include archive-single.html type="grid" %}
-        {% endfor %}
-        {% endif %}
-        {% if site.sci-tech %}
-        {% for post in site.sci-tech limit:4 %}
-          {% include archive-single.html type="grid" %}
-        {% endfor %}
-        {% endif %} 
-        {% if site.others %}
-        {% for post in site.others limit:4 %}
-          {% include archive-single.html type="grid" %}
-        {% endfor %}
-        {% endif %}  
+        {% endfor %}  
       </div>
     </div>
   {% endif %}
