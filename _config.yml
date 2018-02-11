@@ -263,6 +263,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      mathjax: true
       read_time: true
       comments: true
       share: true
@@ -277,30 +278,37 @@ defaults:
       read_time: true
       share: true
       comments: true
+      related: true
   - scope:
       path: ""
       type: apply
     values:
       layout: single
       author_profile: true
+      mathjax: true
       read_time: true
       share: true
-      comments: true      
+      comments: true
+      related: true
   - scope:
       path: ""
       type: sci-tech
     values:
       layout: single
       author_profile: true
+      mathjax: true
       read_time: true
       share: true
       comments: true
+      related: true
   - scope:
       path: ""
       type: others
     values:
       layout: single
       author_profile: true
+      mathjax: true
       read_time: true
       share: true
-      comments: true      
+      comments: true
+      related: true
