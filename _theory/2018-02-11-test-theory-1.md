@@ -1,6 +1,6 @@
 ---
 tittle: "Test Toán lý thuyết 1"
-date: February 11, 2018
+date: February 12, 2018
 excerpt: "Giới thiệu chung về bài viết." 
 ---
 
