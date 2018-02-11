@@ -186,7 +186,7 @@ collections:
   apply:
     output: true
     permalink: /:collection/:path/
-  Sci-Tech:
+  sci-tech:
     output: true
     permalink: /:collection/:path/
   others:
@@ -292,7 +292,7 @@ defaults:
       related: true
   - scope:
       path: ""
-      type: Sci-Tech
+      type: sci-tech
     values:
       layout: single
       author_profile: true
