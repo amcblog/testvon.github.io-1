@@ -30,8 +30,8 @@
         <a href="{{ post.url | absolute_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-         <div class="page__meta">
           {% if post.read_time %}
+         <div class="page__meta">
             <p><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
           {% if page.last_modified_at %}
