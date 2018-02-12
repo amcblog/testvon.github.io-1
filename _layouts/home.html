@@ -11,6 +11,7 @@ layout: archive
   {% if year != written_year %}
     <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
     {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
   {% include archive-single.html %}
 {% endfor %}
 {% for post in site.apply %}
@@ -18,6 +19,7 @@ layout: archive
   {% if year != written_year %}
     <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
     {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
   {% include archive-single.html %}
 {% endfor %}
 {% for post in site.sci-tech %}
@@ -25,6 +27,7 @@ layout: archive
   {% if year != written_year %}
     <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
     {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
   {% include archive-single.html %}
 {% endfor %}
 {% for post in site.others %}
@@ -32,7 +35,7 @@ layout: archive
   {% if year != written_year %}
     <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
     {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
   {% include archive-single.html %}
 {% endfor %}
-  {% endif %}
 {% include paginator.html %}
