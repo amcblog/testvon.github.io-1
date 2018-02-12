@@ -261,7 +261,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single-theory,single-apply,single-sci-tech,single-others
+      layout: single
       author_profile: true
       mathjax: true
       read_time: true
