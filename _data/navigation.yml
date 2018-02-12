@@ -5,11 +5,11 @@ main:
   - title: "Toán Lý Thuyết"
     url: /posts/theory/
   - title: "Toán Ứng Dụng"
-    url: /apply/
+    url: /posts/apply/
   - title: "Khoa Học & Công Nghệ"
-    url: /sci-tech/
+    url: /posts/sci-tech/
   - title: "Chuyện Bên Lề"
-    url: /others/
+    url: /posts/others/
   - title: "About"
     url: /about/
   
