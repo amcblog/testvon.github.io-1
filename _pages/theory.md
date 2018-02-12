@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Toán lý thuyết"
-permalink: /theory/
+permalink: /Toán lý thuyết/
 author_profile: true
 ---
 ---
