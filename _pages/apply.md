@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Toán ứng dụng"
-permalink: /posts/apply/
+permalink: /apply/
 author_profile: true
 ---
 {% include base_path %}
