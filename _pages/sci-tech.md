@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Khoa học và Công nghệ"
-permalink: /sci-tech/
+permalink: /posts/sci-tech/
 author_profile: true
 ---
 {% include base_path %}
