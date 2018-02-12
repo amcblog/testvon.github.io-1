@@ -3,13 +3,13 @@ main:
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Toán Lý Thuyết"
-    url: /posts/theory/
+    url: /theory/
   - title: "Toán Ứng Dụng"
-    url: /posts/apply/
+    url: /apply/
   - title: "Khoa Học & Công Nghệ"
-    url: /posts/sci-tech/
+    url: /sci-tech/
   - title: "Chuyện Bên Lề"
-    url: /posts/others/
+    url: /others/
   - title: "About"
     url: /about/
   
