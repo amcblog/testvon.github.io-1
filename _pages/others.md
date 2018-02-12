@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Chuyện bên lề"
-permalink: /others/
+permalink: /posts/others/
 author_profile: true
 ---
 {% include base_path %}
