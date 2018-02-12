@@ -1,10 +1,7 @@
 ---
-layout: home
-permalink: /
+layout: archive
 author_profile: true
 ---
-
-{% include base_path %}
 
 {% for post in site.theory %}
   {% include archive-single.html %}
