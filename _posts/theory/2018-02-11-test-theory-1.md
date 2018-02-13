@@ -1,6 +1,7 @@
 ---
-tittle: "Test Toán lý thuyết 1"
+layout: single
 category: theory
+tittle: "Test Toán lý thuyết 1"
 excerpt: "Giới thiệu chung về bài viết." 
 ---
 
