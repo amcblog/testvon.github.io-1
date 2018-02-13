@@ -1,4 +1,6 @@
 ---
+layout: single
+category: theory
 title: "Markup: Another Post with Images"
 excerpt: "Examples and code for displaying images in posts."
 header:
