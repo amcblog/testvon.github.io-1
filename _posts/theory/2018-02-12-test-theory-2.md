@@ -1,4 +1,5 @@
 ---
+category: theory
 title: "Layout: Sidebar Custom"
 excerpt: "A post with custom sidebar content."
 author_profile: false
