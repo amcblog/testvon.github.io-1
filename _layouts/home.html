@@ -5,13 +5,13 @@ layout: archive
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
 {% include base_path %}
-{% for post in site.theory %}
+{% for post in paginator.theory %}
   {% include archive-single.html %}
-{% for post in site.apply %}
+{% for post in paginator.apply %}
   {% include archive-single.html %}
-{% for post in site.sci-tech %}
+{% for post in paginator.sci-tech %}
   {% include archive-single.html %}
-{% for post in site.others %}
+{% for post in paginator.others %}
   {% include archive-single.html %}
 {% endfor %} 
 {% endfor %}
