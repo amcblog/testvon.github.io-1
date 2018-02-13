@@ -177,22 +177,7 @@ kramdown:
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-# Collections
-collections:
-  theory:
-    output: true
-    permalink: /:collection/:path/
-  apply:
-    output: true
-    permalink: /:collection/:path/
-  sci-tech:
-    output: true
-    permalink: /:collection/:path/
-  others:
-    output: true
-    permalink: /:collection/:path/
-
+ 
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -267,48 +252,4 @@ defaults:
       read_time: true
       comments: true
       share: true
-      related: true
-  - scope:
-      path: ""
-      type: theory
-    values:
-      layout: single-theory
-      author_profile: true
-      mathjax: true
-      read_time: true
-      share: true
-      comments: true
-      related: true
-  - scope:
-      path: ""
-      type: apply
-    values:
-      layout: single-apply
-      author_profile: true
-      mathjax: true
-      read_time: true
-      share: true
-      comments: true
-      related: true
-  - scope:
-      path: ""
-      type: sci-tech
-    values:
-      layout: single-sci-tech
-      author_profile: true
-      mathjax: true
-      read_time: true
-      share: true
-      comments: true
-      related: true
-  - scope:
-      path: ""
-      type: others
-    values:
-      layout: single-others
-      author_profile: true
-      mathjax: true
-      read_time: true
-      share: true
-      comments: true
       related: true
