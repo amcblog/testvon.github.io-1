@@ -6,7 +6,7 @@ author_profile: true
 ---
 ---
 {% include base_path %}
-{% for post in paginator.theory reversed %}
+{% for post in site.theory reversed %}
   {% include archive-single.html %}
 {% endfor %}
 {% include paginator.html %}
