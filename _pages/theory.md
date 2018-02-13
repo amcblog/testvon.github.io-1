@@ -9,3 +9,4 @@ author_profile: true
 {% for post in paginator.theory reversed %}
   {% include archive-single.html %}
 {% endfor %}
+{% include paginator.html %}
